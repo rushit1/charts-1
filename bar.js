@@ -52,8 +52,8 @@ var grossmargin_data = [];
 for(var row of data) {
 	var cell = row[queryResponse.fields.dimensions[2].name]
 	grossmargin_data.push([
-		y:row[z].value
-	       ,color:row[b].value  		      
+		y     : row[z].value,
+	        color : row[b].value  		      
 	]);
 }
 
